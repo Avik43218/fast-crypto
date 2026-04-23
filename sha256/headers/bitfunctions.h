@@ -3,13 +3,15 @@
 #ifndef BITFUNCTIONS_H
 #define BITFUNCTIONS_H
 
-unsigned int rotr(unsigned int x, unsigned int n);
-unsigned int ch(unsigned int x, unsigned int y, unsigned int z);
-unsigned int maj(unsigned int x, unsigned int y, unsigned int z);
+#include <cstdint>
 
-unsigned int Σ0(unsigned int x);
-unsigned int Σ1(unsigned int x);
-unsigned int σ0(unsigned int x);
-unsigned int σ1(unsigned int x);
+uint32_t rotr(uint32_t x, uint32_t n);
+uint32_t ch(uint32_t x, uint32_t y, uint32_t z);
+uint32_t maj(uint32_t x, uint32_t y, uint32_t z);
+
+uint32_t Σ0(uint32_t x);
+uint32_t Σ1(uint32_t x);
+uint32_t σ0(uint32_t x);
+uint32_t σ1(uint32_t x);
 
 #endif
