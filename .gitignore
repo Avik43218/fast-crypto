@@ -1,0 +1,5 @@
+# IDE dotfiles
+.vscode/
+
+# Compiled libraries
+sha256/libsha256.so
